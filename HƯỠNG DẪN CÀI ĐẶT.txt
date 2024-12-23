@@ -1,0 +1,23 @@
+Cài đặt môi trường phát triển: Đảm bảo máy tính của bạn chạy phiên bản Node module 14.7.0
+
+- Demo xem tại youtube
+
+- Mở xampp
+
+- Tạo CSDL tên `testdb`
+
+- mở project frontend ReactJS: mở terminal chạy "npm i" hoặc "npm i --legacy-peer-deps" để cài thư viện cần thiết
+
+- mở project backend NodeJS: mở terminal chạy "npm i" hoặc "npm i --legacy-peer-deps" để cài thư viện cần thiết
+
+- chạy vào thư mục src của project backend bằng câu lệnh "cd src" sau đó run câu lệnh "npx sequelize-cli db:migrate"
+
+- Nhập file `testdb.sql vào MySQL` để lấy data
+
+- Quản lý tài khoản google ->bảo mật -> xác mình 2 bước -> mật khẩu ứng dụng -> đăng ký và copy thông tin email password vào file .env, để có thể sử dụng nodemailer gửi mail cho bệnh nhân đặt lịch
+
+- Run pj frontend và backend bằng câu lệnh "npm start"
+
+- localhost:8086/home - user
+
+- localhost:8086/login - admin
